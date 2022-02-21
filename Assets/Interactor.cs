@@ -3,16 +3,17 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
 
+
+// this component goes on main camera
 public class Interactor : MonoBehaviour
 {
     public Image cursor;
-
-    Vector2 startSize = new Vector2(10, 10);
-    Vector2 endSize = new Vector2(30, 30);
-    float duration = .3f;
-    float elapsedTime;
-
     Transform selectedOBJ;
+
+    // cursor vars 
+    public float cursorSmallSize = 10;
+    public float cursorBigSize = 30;
+    public float cursorGrowSpeed;
 
     // Start is called before the first frame update
     void Start()
@@ -36,9 +37,10 @@ public class Interactor : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 2, layerMask))
         {
             Debug.Log("Did Hit");
-            elapsedTime += Time.deltaTime;
-            float percentage = elapsedTime / duration;
-            cursor.rectTransform.sizeDelta = Vector2.Lerp(startSize, endSize, percentage);
+
+            float lerpNum = Mathf.Lerp(cursor.rectTransform.sizeDelta.x, cursorBigSize, cursorGrowSpeed);
+            cursor.rectTransform.sizeDelta =  new Vector2(lerpNum,lerpNum);
+
             if (Input.GetMouseButtonDown(0))
             {
                 hit.transform.gameObject.SetActive(false);
@@ -47,8 +49,10 @@ public class Interactor : MonoBehaviour
         else
         {
             Debug.Log("Did not Hit");
-            elapsedTime = 0;
-            cursor.rectTransform.sizeDelta = startSize;
+
+            float lerpNum = Mathf.Lerp(cursor.rectTransform.sizeDelta.x, cursorSmallSize, cursorGrowSpeed);
+            cursor.rectTransform.sizeDelta =  new Vector2(lerpNum,lerpNum);
+
         }
     }
 }
