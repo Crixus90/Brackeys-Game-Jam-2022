@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: 1c2e44f5eec11444884346907960c4f7
+guid: 1704d78fca5c6184798dfff9723a492d
 ModelImporter:
   serializedVersion: 20200
   internalIDToNameTable: []
@@ -7,23 +7,13 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Clear
-    second: {fileID: 2100000, guid: 9f040580351312b4f843c30bd091e6fb, type: 2}
+      name: Pill
+    second: {fileID: 2100000, guid: 984aab026d6018e418f1a56ab6a1e269, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
-      name: Light
-    second: {fileID: 2100000, guid: 5c11fba534c064b4a9f4efee48c9396d, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: Metal
-    second: {fileID: 2100000, guid: c24befba8fe21a44ba956af01f39b237, type: 2}
-  - first:
-      type: UnityEngine:Material
-      assembly: UnityEngine.CoreModule
-      name: PayPhone
-    second: {fileID: 2100000, guid: 6183486f1f19e4b4888e351f84332bbf, type: 2}
+      name: clear
+    second: {fileID: 2100000, guid: e89cf720abc37014ea69dbe319f06372, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
