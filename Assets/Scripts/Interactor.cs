@@ -15,6 +15,8 @@ public class Interactor : MonoBehaviour
     public float cursorBigSize = 30;
     public float cursorGrowSpeed;
 
+    //private bool interacting = false;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -37,7 +39,19 @@ public class Interactor : MonoBehaviour
         if (Physics.Raycast(transform.position, transform.TransformDirection(Vector3.forward), out hit, 2, layerMask))
         {
             //Debug.Log("Did Hit");
-
+            selectedOBJ = hit.transform;
+            
+        }
+        else
+        {
+            //Debug.Log("Did not Hit");
+            selectedOBJ = null;
+        }
+    }
+    void Update()
+    {
+        if (selectedOBJ != null)
+        {
             float lerpNum = Mathf.Lerp(cursor.rectTransform.sizeDelta.x, cursorBigSize, cursorGrowSpeed);
             cursor.rectTransform.sizeDelta =  new Vector2(lerpNum,lerpNum);
 
@@ -45,18 +59,15 @@ public class Interactor : MonoBehaviour
             {
                 //hit.transform.gameObject.SetActive(false);
                 
-                GameObject obj = hit.transform.gameObject;
+                GameObject obj = selectedOBJ.gameObject;
                 obj.GetComponent<Interactable>().interactEvent.Invoke();
+                print("test");
                
             }
-        }
-        else
+        }else
         {
-            //Debug.Log("Did not Hit");
-
             float lerpNum = Mathf.Lerp(cursor.rectTransform.sizeDelta.x, cursorSmallSize, cursorGrowSpeed);
             cursor.rectTransform.sizeDelta =  new Vector2(lerpNum,lerpNum);
-
         }
     }
 }
