@@ -7,6 +7,8 @@ public class PlayerInventory : MonoBehaviour
 
     bool hasPill = false;
 
+    public VolumeProfileChanger volumeProfileChanger;
+
     public void PickUpFunc(GameObject obj)
     {
         StartCoroutine(PickUp(obj));
@@ -39,9 +41,9 @@ public class PlayerInventory : MonoBehaviour
     void TakePill()
     {
         print("ate pill");
-        //play eating animation
+        //play eating animation & sound
 
-
+        StartCoroutine(volumeProfileChanger.Warping());
         // do all the camera warping stuff
 
     }
