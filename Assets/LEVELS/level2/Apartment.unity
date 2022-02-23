@@ -449,6 +449,17 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c1c49927b446247439bf6e2b3a3314f6, type: 3}
+--- !u!114 &519765840 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 2177540713026526103, guid: 0f3c3418d93d8f349976e0a025c990b1, type: 3}
+  m_PrefabInstance: {fileID: 285936815}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 12cfd56ef21b6b742bc95f428a58edb3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &530233926
 GameObject:
   m_ObjectHideFlags: 0
@@ -1416,12 +1427,12 @@ MonoBehaviour:
   interactEvent:
     m_PersistentCalls:
       m_Calls:
-      - m_Target: {fileID: 0}
+      - m_Target: {fileID: 519765840}
         m_TargetAssemblyTypeName: PlayerInventory, Assembly-CSharp
         m_MethodName: PickUpFunc
         m_Mode: 2
         m_Arguments:
-          m_ObjectArgument: {fileID: 1425391123}
+          m_ObjectArgument: {fileID: 1145760686}
           m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
           m_IntArgument: 0
           m_FloatArgument: 0
@@ -1618,11 +1629,6 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 1704d78fca5c6184798dfff9723a492d, type: 3}
---- !u!1 &1425391123 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 919132149155446097, guid: 1704d78fca5c6184798dfff9723a492d, type: 3}
-  m_PrefabInstance: {fileID: 1397770968}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1501095449
 GameObject:
   m_ObjectHideFlags: 0
@@ -1721,6 +1727,33 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.11813189, y: 0.07044137, z: 8.3937757e-16}
   m_Center: {x: 0.000000018626451, y: 2.6478526e-23, z: 0.00395}
+--- !u!114 &1631967208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1631967204}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3eaa305dfd9f47c4b907a61b83b86398, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  interactEvent:
+    m_PersistentCalls:
+      m_Calls:
+      - m_Target: {fileID: 519765840}
+        m_TargetAssemblyTypeName: PlayerInventory, Assembly-CSharp
+        m_MethodName: PickUpFunc
+        m_Mode: 2
+        m_Arguments:
+          m_ObjectArgument: {fileID: 484391362}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.GameObject, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!1 &1761147190
 GameObject:
   m_ObjectHideFlags: 0
