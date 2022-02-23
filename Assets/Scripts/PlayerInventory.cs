@@ -30,6 +30,19 @@ public class PlayerInventory : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if(Input.GetButtonDown("EatPill") && hasPill)
+        {
+            TakePill();
+        }
+    }
+
+    void TakePill()
+    {
+        print("ate pill");
+        //play eating animation
+
+
+        // do all the camera warping stuff
+
     }
 }
