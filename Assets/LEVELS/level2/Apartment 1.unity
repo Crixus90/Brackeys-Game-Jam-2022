@@ -694,6 +694,63 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1001 &817145907
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 908591043}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_RootOrder
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: 0.44027233
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -0.49999952
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -1.9099998
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: -0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+      propertyPath: m_Name
+      value: Bedroom (1)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
 --- !u!1001 &839708940
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -854,6 +911,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 543450652895209693}
+  - {fileID: 1730558233}
   m_Father: {fileID: 0}
   m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
@@ -1678,6 +1736,11 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1568430435}
   m_CullTransparentMesh: 1
+--- !u!4 &1730558233 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: 39e71bb6e8ace854aacabd04a9450888, type: 3}
+  m_PrefabInstance: {fileID: 817145907}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1761147190
 GameObject:
   m_ObjectHideFlags: 0
@@ -2473,7 +2536,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!1 &1041521408324182801
 GameObject:
   m_ObjectHideFlags: 0
@@ -2795,7 +2858,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!108 &2114283754330233425
 Light:
   m_ObjectHideFlags: 0
@@ -3036,7 +3099,7 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 8984721896126704811}
   m_LocalRotation: {x: 0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -0.46516633, y: -1.1182213, z: 0.5599662}
+  m_LocalPosition: {x: -0.64, y: -1.118, z: 0.56}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 7603178375255796764}

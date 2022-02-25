@@ -17,8 +17,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Clear
+    second: {fileID: 2100000, guid: 8c48a2be5a116a54290f482d5cb4c613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: Glass
+    second: {fileID: 2100000, guid: 8c48a2be5a116a54290f482d5cb4c613, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Handle
-    second: {fileID: 2100000, guid: f86c4db64fe9c6d4ab9ebb3fbac23590, type: 2}
+    second: {fileID: 2100000, guid: b5ace0bc3bb610141b9951d289837240, type: 2}
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
@@ -27,8 +37,18 @@ ModelImporter:
   - first:
       type: UnityEngine:Material
       assembly: UnityEngine.CoreModule
+      name: Metal
+    second: {fileID: 2100000, guid: c24befba8fe21a44ba956af01f39b237, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
       name: Wood
     second: {fileID: 2100000, guid: fae52d1e129e27647afebd04f3c01321, type: 2}
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: carpet
+    second: {fileID: 2100000, guid: 851d0dd8febf58f47a114b4b97b5bc07, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0
