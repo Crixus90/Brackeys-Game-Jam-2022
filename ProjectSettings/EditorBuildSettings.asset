@@ -6,9 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
-    path: Assets/Levels/level1/PhoneBooth.unity
+    path: Assets/LEVELS/level1/PhoneBooth.unity
     guid: 707acc8dffb72b144bb1ffbe1c965f3d
   - enabled: 1
-    path: Assets/Levels/level2/Apartment.unity
+    path: Assets/LEVELS/level2/Apartment.unity
     guid: 9e23b656c63454849b3d75b79e4cec77
   m_configObjects: {}
