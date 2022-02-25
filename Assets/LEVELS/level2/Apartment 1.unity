@@ -298,6 +298,10 @@ PrefabInstance:
       propertyPath: m_Height
       value: 1.8
       objectReference: {fileID: 0}
+    - target: {fileID: 2177540713026526103, guid: 0f3c3418d93d8f349976e0a025c990b1, type: 3}
+      propertyPath: volumeProfileChanger
+      value: 
+      objectReference: {fileID: 1933768003}
     - target: {fileID: 2551951148558699926, guid: 0f3c3418d93d8f349976e0a025c990b1, type: 3}
       propertyPath: cursor
       value: 
@@ -2092,7 +2096,7 @@ MonoBehaviour:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1933768000}
-  m_Enabled: 0
+  m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 06ade5dae36d19f43b60b760c213110d, type: 3}
   m_Name: 

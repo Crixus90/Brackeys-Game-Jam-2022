@@ -30,7 +30,7 @@ public class VolumeProfileChanger : MonoBehaviour
 
         // fog.enabled.overrideState = overrideFog;
         // fog.enabled.value = enableFog;
-        StartCoroutine(Warping());
+        //StartCoroutine(Warping());
     }
 
     public IEnumerator Warping(){
