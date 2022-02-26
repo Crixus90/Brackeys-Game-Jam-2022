@@ -6,9 +6,15 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/LEVELS/Menu/Menu.unity
+    guid: 24cad026bb8d02e498bce45ef1edcbd0
+  - enabled: 1
     path: Assets/LEVELS/level1/PhoneBooth.unity
     guid: 707acc8dffb72b144bb1ffbe1c965f3d
   - enabled: 1
-    path: Assets/LEVELS/level2/Apartment.unity
-    guid: 9e23b656c63454849b3d75b79e4cec77
+    path: Assets/LEVELS/level2/BobojoTestLvl2.unity
+    guid: ce3da8e4c33b3a341ad2d2edcac2a989
+  - enabled: 1
+    path: Assets/LEVELS/Level 3.unity
+    guid: 65cba5da6c280aa4eacdce20025071fe
   m_configObjects: {}
